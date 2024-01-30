@@ -208,6 +208,7 @@ An illustration of the pool operation can be found below
 </span>
 
 
+
 ## CPU Implementation
 
 A basic **incomplete** implementaton of a Max-Pool layer is provided inside `cpuLib.h`. It lays down the API and (after completion) can be used for checking your GPU implementation later.
@@ -231,6 +232,16 @@ The naive CPU implementation is a set of nested loops - each loop presents an op
 
 
 <br>
+
+```C++
+// CHW format
+typedef struct TensorShape_t
+{
+	uint32_t height;
+	uint32_t width;
+	uint32_t channels;
+} TensorShape;
+```
 
 
 # Reporting your Progress
