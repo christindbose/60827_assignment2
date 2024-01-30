@@ -237,8 +237,8 @@ The naive CPU implementation is a set of nested loops - each loop presents an op
 // CHW format
 typedef struct TensorShape_t
 {
-	uint32_t height;
 	uint32_t width;
+	uint32_t height;
 	uint32_t channels;
 } TensorShape;
 ```
