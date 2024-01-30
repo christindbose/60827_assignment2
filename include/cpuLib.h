@@ -71,9 +71,9 @@
 	extern std::ostream& operator<< (std::ostream &o,PoolOp op);
 
 	typedef struct TensorShape_t {
-		uint32_t height;	//	Height = # rows
 		uint32_t width;		//	Width = # cols
-		uint32_t channels;	//	
+		uint32_t height;	//	Height = # rows
+                uint32_t channels;	//	
 	} TensorShape;
 
 	typedef struct PoolLayerArgs_t {
