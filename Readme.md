@@ -223,7 +223,7 @@ A basic **incomplete** implementaton of a Max-Pool layer is provided inside `cpu
 
 ## GPU Implementation
 
-The naive CPU implementation is a set of nested loops - each loop presents an oppornity for parallelization. Choose wisely.
+The naive CPU implementation is a set of nested loops - each loop presents an opportunity for parallelization. Choose wisely.
 
 
 <span style="display:block;text-align:center">\
@@ -232,6 +232,8 @@ The naive CPU implementation is a set of nested loops - each loop presents an op
 
 
 <br>
+
+Assume the following layout for the storage of the tensors. In a subsequent lab, we will be adding a 4th dimension to account for the batch size. Learn more about the NCHW layout here: https://www.intel.com/content/www/us/en/docs/onednn/developer-guide-reference/2023-1/understanding-memory-formats.html
 
 ```C++
 // CHW format
