@@ -179,7 +179,7 @@ int runCpuMCPi(uint64_t iterationCount, uint64_t sampleSize) {
 
 std::ostream& operator<< (std::ostream &o,ImageDim imgDim) {
 	return (
-		o << "Image : " << imgDim.height  << " x " << imgDim.channels << " x "
+		o << "Image : " << imgDim.height  << " x " << imgDim.width << " x "
 			<< imgDim.channels << " x " << imgDim.pixelSize << " " 
 	);
 }
