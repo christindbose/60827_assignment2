@@ -29,7 +29,7 @@ The [median filter](https://en.wikipedia.org/wiki/Median_filter) is a non-linear
 
 While a number of efficient implementations of median filtering exists [[3]](#3), we will be using the relatively compute-intensive "simple" implementation, that precisely computes the median. Furthermore, to simplify the implementation, we will be using a cental symmetric rectangular / square window such that the pixel at the centre will be replaced by the median of all the pixels in
 
-A simple description of the algorithm can be found [here](http://fourier.eng.hmc.edu/e161/lectures/smooth_sharpen/node2.html). The curious, interested in exploring Median Filtering in the context of recent (and past) academic work can visit [this](https://www.sciencedirect.com/topics/computer-science/median-filter).
+A simple description of the algorithm can be found [here](https://www.cs.auckland.ac.nz/courss/compsci373s1c/PatricesLectures/Image%20Filtering.pdf). The curious, interested in exploring Median Filtering in the context of recent (and past) academic work can visit [this](https://www.sciencedirect.com/topics/computer-science/median-filter).
 
 
 ## Implementation
