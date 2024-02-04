@@ -84,8 +84,8 @@ int runGpuMedianFilter (std::string imgPath, std::string outPath, MedianFilterAr
 	return 0;
 }
 
-int medianFilter_gpu (uint8_t inPixels, ImageDim imgDim, 
-	uint8_t outPixels, MedianFilterArgs args) {
+int medianFilter_gpu (uint8_t* inPixels, ImageDim imgDim, 
+	uint8_t* outPixels, MedianFilterArgs args) {
 
 	return 0;
 }
